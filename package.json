@@ -1,0 +1,19 @@
+{
+  "name": "gitops-demo",
+  "version": "1.0.0",
+  "description": "Simple GitOps demo with linting, testing, and Trello automation",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^13.0.0",
+    "jest": "^29.7.0"
+  }
+}
